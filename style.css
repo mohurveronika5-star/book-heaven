@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Roboto:wght@400;700&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    background-color: #eaeaea;
+    font-size: 16px;
+}
+
+.section-main {
+    background-color: #556b2f;
+    padding: 40px 20px 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.section-main h1 {
+    color: #fff;
+    font-family: 'Lora', serif;
+    font-size: 55px;
+    margin: 40px 0 20px;
+}
+
+.section-main h2 {
+    color: #fff;
+    font-size: 22px;
+    margin-bottom: 40px;
+}
+
+.section-main button {
+    background-color: #8fbc8f;
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+    padding: 12px 30px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.second-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding: 100px 30px;
+    background-color: #eaeaea;
+    flex-wrap: wrap;
+}
+
+.second-section-img {
+    width: 500px;
+    max-width: 100%;
+    border: 5px solid #556b2f;
+    border-radius: 20px;
+}
+
+.second-section-info {
+    max-width: 600px;
+}
+
+.section-subtitle {
+    margin: 0 0 10px;
+    color: #8fbc8f;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.section-title {
+    margin: 0 0 40px;
+    color: #556b2f;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.second-section-text {
+    margin: 30px 0;
+    color: #666;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.second-section-name {
+    color: #556b2f;
+    font-size: 18px;
+    text-transform: capitalize;
+}
+
+.second-section-name2 {
+    color: #8fbc8f;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.third-section-book img {
+    width: 200px;
+    height: 280px;
+    object-fit: cover;
+}
+.third-section-books {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.third-section-book {
+    width: 200px;
+}
+a[href="author.html"],
+a[href="index.html"] {
+    display: inline-block;
+    background-color: #5b9b78;
+    color: white;
+    padding: 14px 28px;
+    margin: 20px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+a[href="author.html"]:hover,
+a[href="index.html"]:hover {
+    background-color: #397653;
+}
+.second-section-name2 {
+    color: #397653;
+    font-size: 24px;
+    font-weight: bold;
+}
